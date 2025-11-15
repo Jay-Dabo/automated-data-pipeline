@@ -1,0 +1,4 @@
+2025-11-29 11:45:23.833 | INFO     | __main__:run_api:99 - Starting API server...
+2025-11-29 11:45:25.638 | INFO     | src.database.connection:initialize:59 - Database engine initialized successfully
+2025-11-29 11:45:26.239 | INFO     | src.database.connection:create_tables:72 - Database tables created successfully
+2025-11-29 11:45:26.239 | INFO     | src.api.routes:startup_event:85 - API startup complete
