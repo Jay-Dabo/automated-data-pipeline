@@ -1,0 +1,42 @@
+# Web Scraping
+requests==2.31.0
+beautifulsoup4==4.12.2
+lxml==5.1.0
+
+# Data Processing
+pandas==2.1.4
+numpy==1.26.4
+
+# Database
+psycopg2-binary==2.9.9
+SQLAlchemy==2.0.25
+alembic==1.13.1
+
+# API
+fastapi==0.109.0
+uvicorn==0.27.0
+pydantic==2.5.3
+pydantic-settings==2.1.0
+
+# Dashboard
+streamlit==1.31.0
+plotly==5.18.0
+altair==5.2.0
+
+# Configuration
+python-dotenv==1.0.1
+pyyaml==6.0.1
+
+# Logging
+loguru==0.7.2
+
+# Testing
+pytest==8.0.0
+pytest-cov==4.1.0
+
+# Scheduling (optional)
+schedule==1.2.0
+
+# Additional useful packages
+urllib3==2.1.0
+certifi==2024.2.2

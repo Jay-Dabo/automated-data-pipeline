@@ -1,0 +1,5 @@
+2025-10-24 21:17:54.583 | INFO     | __main__:init_db:46 - Initializing database...
+2025-10-24 21:17:57.355 | INFO     | src.database.connection:initialize:59 - Database engine initialized successfully
+2025-10-24 21:17:57.468 | ERROR    | src.database.connection:create_tables:74 - Failed to create tables: (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5432 failed: FATAL:  role "data_pipeline_admin" does not exist
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)

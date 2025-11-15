@@ -1,0 +1,26 @@
+2025-10-24 21:26:15.298 | INFO     | __main__:init_db:46 - Initializing database...
+2025-10-24 21:26:15.346 | INFO     | src.database.connection:initialize:59 - Database engine initialized successfully
+2025-10-24 21:26:15.464 | INFO     | src.database.connection:create_tables:72 - Database tables created successfully
+2025-10-24 21:26:15.464 | INFO     | __main__:init_db:49 - Database initialized successfully
+2025-10-24 21:26:15.464 | INFO     | __main__:run_scraper:59 - Starting scraper...
+2025-10-24 21:26:15.464 | WARNING  | src.scraper.base_scraper:__init__:158 - SSL verification disabled - use only for development!
+2025-10-24 21:26:15.464 | INFO     | src.scraper.books_scraper:scrape:281 - Scraping page 1: https://books.toscrape.com/
+2025-10-24 21:26:17.396 | INFO     | src.scraper.base_scraper:fetch_page:176 - Successfully fetched: https://books.toscrape.com/
+2025-10-24 21:26:17.417 | INFO     | src.scraper.books_scraper:scrape:289 - Page 1: Scraped 20 books (Total: 20)
+2025-10-24 21:26:17.417 | INFO     | src.scraper.books_scraper:scrape:281 - Scraping page 2: https://books.toscrape.com/catalogue/page-2.html
+2025-10-24 21:26:18.015 | INFO     | src.scraper.base_scraper:fetch_page:176 - Successfully fetched: https://books.toscrape.com/catalogue/page-2.html
+2025-10-24 21:26:18.035 | INFO     | src.scraper.books_scraper:scrape:289 - Page 2: Scraped 20 books (Total: 40)
+2025-10-24 21:26:18.035 | INFO     | src.scraper.books_scraper:scrape:281 - Scraping page 3: https://books.toscrape.com/catalogue/page-3.html
+2025-10-24 21:26:18.480 | INFO     | src.scraper.base_scraper:fetch_page:176 - Successfully fetched: https://books.toscrape.com/catalogue/page-3.html
+2025-10-24 21:26:18.540 | INFO     | src.scraper.books_scraper:scrape:289 - Page 3: Scraped 20 books (Total: 60)
+2025-10-24 21:26:18.540 | INFO     | src.scraper.books_scraper:scrape:281 - Scraping page 4: https://books.toscrape.com/catalogue/page-4.html
+2025-10-24 21:26:18.950 | INFO     | src.scraper.base_scraper:fetch_page:176 - Successfully fetched: https://books.toscrape.com/catalogue/page-4.html
+2025-10-24 21:26:18.972 | INFO     | src.scraper.books_scraper:scrape:289 - Page 4: Scraped 20 books (Total: 80)
+2025-10-24 21:26:18.972 | INFO     | src.scraper.books_scraper:scrape:281 - Scraping page 5: https://books.toscrape.com/catalogue/page-5.html
+2025-10-24 21:26:19.403 | INFO     | src.scraper.base_scraper:fetch_page:176 - Successfully fetched: https://books.toscrape.com/catalogue/page-5.html
+2025-10-24 21:26:19.426 | INFO     | src.scraper.books_scraper:scrape:289 - Page 5: Scraped 20 books (Total: 100)
+2025-10-24 21:26:19.426 | INFO     | src.scraper.books_scraper:scrape:292 - Total books scraped: 100
+2025-10-24 21:26:19.429 | INFO     | src.scraper.base_scraper:close:212 - Scraper session closed
+2025-10-24 21:26:19.429 | INFO     | __main__:run_scraper:65 - Scraped 100 books. Inserting into database...
+2025-10-24 21:26:19.504 | INFO     | src.database.connection:insert_books_bulk:142 - Bulk inserted 100 books
+2025-10-24 21:26:19.505 | INFO     | __main__:run_scraper:67 - Successfully inserted 100 books

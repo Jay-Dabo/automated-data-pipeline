@@ -1,0 +1,23 @@
+2025-10-24 21:20:11.732 | INFO     | __main__:init_db:46 - Initializing database...
+2025-10-24 21:20:11.779 | INFO     | src.database.connection:initialize:59 - Database engine initialized successfully
+2025-10-24 21:20:11.836 | ERROR    | src.database.connection:create_tables:74 - Failed to create tables: (psycopg2.errors.InsufficientPrivilege) permission denied for schema public
+LINE 2: CREATE TABLE books (
+                     ^
+
+[SQL: 
+CREATE TABLE books (
+	id SERIAL NOT NULL, 
+	title VARCHAR(500) NOT NULL, 
+	price FLOAT NOT NULL, 
+	availability VARCHAR(100), 
+	rating INTEGER, 
+	category VARCHAR(100), 
+	url TEXT, 
+	scraped_at TIMESTAMP WITHOUT TIME ZONE, 
+	created_at TIMESTAMP WITHOUT TIME ZONE DEFAULT now(), 
+	updated_at TIMESTAMP WITHOUT TIME ZONE DEFAULT now(), 
+	PRIMARY KEY (id)
+)
+
+]
+(Background on this error at: https://sqlalche.me/e/20/f405)

@@ -1,0 +1,317 @@
+2025-10-24 21:49:01.392 | INFO     | __main__:init_db:193 - Initializing database...
+2025-10-24 21:49:01.421 | INFO     | src.database.connection:initialize:59 - Database engine initialized successfully
+2025-10-24 21:49:01.464 | INFO     | src.database.connection:create_tables:72 - Database tables created successfully
+2025-10-24 21:49:01.464 | INFO     | __main__:init_db:196 - Database initialized successfully
+2025-10-24 21:49:01.465 | INFO     | __main__:run_scraper:208 - Starting scraper...
+2025-10-24 21:49:01.465 | INFO     | __main__:run_scraper:213 - Scraping mode: WITH DETAILS (slower, includes full book info)
+2025-10-24 21:49:01.465 | WARNING  | src.scraper.base_scraper:__init__:158 - SSL verification disabled - use only for development!
+2025-10-24 21:49:01.465 | INFO     | src.scraper.books_scraper:scrape:655 - Scraping page 1: https://books.toscrape.com/
+2025-10-24 21:49:03.317 | INFO     | src.scraper.base_scraper:fetch_page:176 - Successfully fetched: https://books.toscrape.com/
+2025-10-24 21:49:03.339 | INFO     | src.scraper.books_scraper:scrape_page:488 - Fetching details for book 1/20: A Light in the Attic...
+2025-10-24 21:49:03.638 | INFO     | src.scraper.base_scraper:fetch_page:176 - Successfully fetched: https://books.toscrape.com/catalogue/a-light-in-the-attic_1000/index.html
+2025-10-24 21:49:04.151 | INFO     | src.scraper.books_scraper:scrape_page:488 - Fetching details for book 2/20: Tipping the Velvet...
+2025-10-24 21:49:04.500 | INFO     | src.scraper.base_scraper:fetch_page:176 - Successfully fetched: https://books.toscrape.com/catalogue/tipping-the-velvet_999/index.html
+2025-10-24 21:49:05.010 | INFO     | src.scraper.books_scraper:scrape_page:488 - Fetching details for book 3/20: Soumission...
+2025-10-24 21:49:05.413 | INFO     | src.scraper.base_scraper:fetch_page:176 - Successfully fetched: https://books.toscrape.com/catalogue/soumission_998/index.html
+2025-10-24 21:49:05.925 | INFO     | src.scraper.books_scraper:scrape_page:488 - Fetching details for book 4/20: Sharp Objects...
+2025-10-24 21:49:06.334 | INFO     | src.scraper.base_scraper:fetch_page:176 - Successfully fetched: https://books.toscrape.com/catalogue/sharp-objects_997/index.html
+2025-10-24 21:49:06.849 | INFO     | src.scraper.books_scraper:scrape_page:488 - Fetching details for book 5/20: Sapiens: A Brief History of Humankind...
+2025-10-24 21:49:07.306 | INFO     | src.scraper.base_scraper:fetch_page:176 - Successfully fetched: https://books.toscrape.com/catalogue/sapiens-a-brief-history-of-humankind_996/index.html
+2025-10-24 21:49:07.818 | INFO     | src.scraper.books_scraper:scrape_page:488 - Fetching details for book 6/20: The Requiem Red...
+2025-10-24 21:49:08.364 | INFO     | src.scraper.base_scraper:fetch_page:176 - Successfully fetched: https://books.toscrape.com/catalogue/the-requiem-red_995/index.html
+2025-10-24 21:49:08.872 | INFO     | src.scraper.books_scraper:scrape_page:488 - Fetching details for book 7/20: The Dirty Little Secrets of Getting Your Dream Job...
+2025-10-24 21:49:09.375 | INFO     | src.scraper.base_scraper:fetch_page:176 - Successfully fetched: https://books.toscrape.com/catalogue/the-dirty-little-secrets-of-getting-your-dream-job_994/index.html
+2025-10-24 21:49:09.914 | INFO     | src.scraper.books_scraper:scrape_page:488 - Fetching details for book 8/20: The Coming Woman: A Novel Based on the Life of the...
+2025-10-24 21:49:10.592 | INFO     | src.scraper.base_scraper:fetch_page:176 - Successfully fetched: https://books.toscrape.com/catalogue/the-coming-woman-a-novel-based-on-the-life-of-the-infamous-feminist-victoria-woodhull_993/index.html
+2025-10-24 21:49:11.110 | INFO     | src.scraper.books_scraper:scrape_page:488 - Fetching details for book 9/20: The Boys in the Boat: Nine Americans and Their Epi...
+2025-10-24 21:49:11.577 | INFO     | src.scraper.base_scraper:fetch_page:176 - Successfully fetched: https://books.toscrape.com/catalogue/the-boys-in-the-boat-nine-americans-and-their-epic-quest-for-gold-at-the-1936-berlin-olympics_992/index.html
+2025-10-24 21:49:12.092 | INFO     | src.scraper.books_scraper:scrape_page:488 - Fetching details for book 10/20: The Black Maria...
+2025-10-24 21:49:12.795 | INFO     | src.scraper.base_scraper:fetch_page:176 - Successfully fetched: https://books.toscrape.com/catalogue/the-black-maria_991/index.html
+2025-10-24 21:49:13.312 | INFO     | src.scraper.books_scraper:scrape_page:488 - Fetching details for book 11/20: Starving Hearts (Triangular Trade Trilogy, #1)...
+2025-10-24 21:49:13.789 | INFO     | src.scraper.base_scraper:fetch_page:176 - Successfully fetched: https://books.toscrape.com/catalogue/starving-hearts-triangular-trade-trilogy-1_990/index.html
+2025-10-24 21:49:14.305 | INFO     | src.scraper.books_scraper:scrape_page:488 - Fetching details for book 12/20: Shakespeare's Sonnets...
+2025-10-24 21:49:14.732 | INFO     | src.scraper.base_scraper:fetch_page:176 - Successfully fetched: https://books.toscrape.com/catalogue/shakespeares-sonnets_989/index.html
+2025-10-24 21:49:15.249 | INFO     | src.scraper.books_scraper:scrape_page:488 - Fetching details for book 13/20: Set Me Free...
+2025-10-24 21:49:15.881 | INFO     | src.scraper.base_scraper:fetch_page:176 - Successfully fetched: https://books.toscrape.com/catalogue/set-me-free_988/index.html
+2025-10-24 21:49:16.392 | INFO     | src.scraper.books_scraper:scrape_page:488 - Fetching details for book 14/20: Scott Pilgrim's Precious Little Life (Scott Pilgri...
+2025-10-24 21:49:17.085 | INFO     | src.scraper.base_scraper:fetch_page:176 - Successfully fetched: https://books.toscrape.com/catalogue/scott-pilgrims-precious-little-life-scott-pilgrim-1_987/index.html
+2025-10-24 21:49:17.600 | INFO     | src.scraper.books_scraper:scrape_page:488 - Fetching details for book 15/20: Rip it Up and Start Again...
+2025-10-24 21:49:18.031 | INFO     | src.scraper.base_scraper:fetch_page:176 - Successfully fetched: https://books.toscrape.com/catalogue/rip-it-up-and-start-again_986/index.html
+2025-10-24 21:49:18.543 | INFO     | src.scraper.books_scraper:scrape_page:488 - Fetching details for book 16/20: Our Band Could Be Your Life: Scenes from the Ameri...
+2025-10-24 21:49:19.145 | INFO     | src.scraper.base_scraper:fetch_page:176 - Successfully fetched: https://books.toscrape.com/catalogue/our-band-could-be-your-life-scenes-from-the-american-indie-underground-1981-1991_985/index.html
+2025-10-24 21:49:19.660 | INFO     | src.scraper.books_scraper:scrape_page:488 - Fetching details for book 17/20: Olio...
+2025-10-24 21:49:20.089 | INFO     | src.scraper.base_scraper:fetch_page:176 - Successfully fetched: https://books.toscrape.com/catalogue/olio_984/index.html
+2025-10-24 21:49:20.607 | INFO     | src.scraper.books_scraper:scrape_page:488 - Fetching details for book 18/20: Mesaerion: The Best Science Fiction Stories 1800-1...
+2025-10-24 21:49:21.106 | INFO     | src.scraper.base_scraper:fetch_page:176 - Successfully fetched: https://books.toscrape.com/catalogue/mesaerion-the-best-science-fiction-stories-1800-1849_983/index.html
+2025-10-24 21:49:21.623 | INFO     | src.scraper.books_scraper:scrape_page:488 - Fetching details for book 19/20: Libertarianism for Beginners...
+2025-10-24 21:49:22.015 | INFO     | src.scraper.base_scraper:fetch_page:176 - Successfully fetched: https://books.toscrape.com/catalogue/libertarianism-for-beginners_982/index.html
+2025-10-24 21:49:22.533 | INFO     | src.scraper.books_scraper:scrape_page:488 - Fetching details for book 20/20: It's Only the Himalayas...
+2025-10-24 21:49:23.070 | INFO     | src.scraper.base_scraper:fetch_page:176 - Successfully fetched: https://books.toscrape.com/catalogue/its-only-the-himalayas_981/index.html
+2025-10-24 21:49:23.587 | INFO     | src.scraper.books_scraper:scrape:663 - Page 1: Scraped 20 books (Total: 20)
+2025-10-24 21:49:23.587 | INFO     | src.scraper.books_scraper:scrape:666 - Total books scraped: 20
+2025-10-24 21:49:23.594 | INFO     | src.scraper.base_scraper:close:212 - Scraper session closed
+2025-10-24 21:49:23.595 | INFO     | __main__:run_scraper:226 - Scraped 20 books. Inserting into database...
+2025-10-24 21:49:23.614 | ERROR    | src.database.connection:get_session:106 - Session error: (psycopg2.errors.UndefinedColumn) column books.description does not exist
+LINE 1: ...tegory AS books_category, books.url AS books_url, books.desc...
+                                                             ^
+
+[SQL: SELECT books.id AS books_id, books.title AS books_title, books.price AS books_price, books.availability AS books_availability, books.rating AS books_rating, books.category AS books_category, books.url AS books_url, books.description AS books_description, books.upc AS books_upc, books.product_type AS books_product_type, books.price_excl_tax AS books_price_excl_tax, books.price_incl_tax AS books_price_incl_tax, books.tax AS books_tax, books.number_of_reviews AS books_number_of_reviews, books.image_url AS books_image_url, books.scraped_at AS books_scraped_at, books.created_at AS books_created_at, books.updated_at AS books_updated_at 
+FROM books 
+WHERE books.upc = %(upc_1)s 
+ LIMIT %(param_1)s]
+[parameters: {'upc_1': 'a897fe39b1053632', 'param_1': 1}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-10-24 21:49:23.614 | WARNING  | src.database.connection:insert_books_bulk:162 - Bulk insert failed: (psycopg2.errors.UndefinedColumn) column books.description does not exist
+LINE 1: ...tegory AS books_category, books.url AS books_url, books.desc...
+                                                             ^
+
+[SQL: SELECT books.id AS books_id, books.title AS books_title, books.price AS books_price, books.availability AS books_availability, books.rating AS books_rating, books.category AS books_category, books.url AS books_url, books.description AS books_description, books.upc AS books_upc, books.product_type AS books_product_type, books.price_excl_tax AS books_price_excl_tax, books.price_incl_tax AS books_price_incl_tax, books.tax AS books_tax, books.number_of_reviews AS books_number_of_reviews, books.image_url AS books_image_url, books.scraped_at AS books_scraped_at, books.created_at AS books_created_at, books.updated_at AS books_updated_at 
+FROM books 
+WHERE books.upc = %(upc_1)s 
+ LIMIT %(param_1)s]
+[parameters: {'upc_1': 'a897fe39b1053632', 'param_1': 1}]
+(Background on this error at: https://sqlalche.me/e/20/f405). Trying individual inserts...
+2025-10-24 21:49:23.616 | ERROR    | src.database.connection:get_session:106 - Session error: (psycopg2.errors.UndefinedColumn) column books.description does not exist
+LINE 1: ...tegory AS books_category, books.url AS books_url, books.desc...
+                                                             ^
+
+[SQL: SELECT books.id AS books_id, books.title AS books_title, books.price AS books_price, books.availability AS books_availability, books.rating AS books_rating, books.category AS books_category, books.url AS books_url, books.description AS books_description, books.upc AS books_upc, books.product_type AS books_product_type, books.price_excl_tax AS books_price_excl_tax, books.price_incl_tax AS books_price_incl_tax, books.tax AS books_tax, books.number_of_reviews AS books_number_of_reviews, books.image_url AS books_image_url, books.scraped_at AS books_scraped_at, books.created_at AS books_created_at, books.updated_at AS books_updated_at 
+FROM books 
+WHERE books.upc = %(upc_1)s 
+ LIMIT %(param_1)s]
+[parameters: {'upc_1': 'a897fe39b1053632', 'param_1': 1}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-10-24 21:49:23.616 | WARNING  | src.database.connection:insert_books_bulk:181 - Failed to insert 'A Light in the Attic': (psycopg2.errors.UndefinedColumn) column books.description does not exist
+LINE 1: ...tegory AS books
+2025-10-24 21:49:23.617 | ERROR    | src.database.connection:get_session:106 - Session error: (psycopg2.errors.UndefinedColumn) column books.description does not exist
+LINE 1: ...tegory AS books_category, books.url AS books_url, books.desc...
+                                                             ^
+
+[SQL: SELECT books.id AS books_id, books.title AS books_title, books.price AS books_price, books.availability AS books_availability, books.rating AS books_rating, books.category AS books_category, books.url AS books_url, books.description AS books_description, books.upc AS books_upc, books.product_type AS books_product_type, books.price_excl_tax AS books_price_excl_tax, books.price_incl_tax AS books_price_incl_tax, books.tax AS books_tax, books.number_of_reviews AS books_number_of_reviews, books.image_url AS books_image_url, books.scraped_at AS books_scraped_at, books.created_at AS books_created_at, books.updated_at AS books_updated_at 
+FROM books 
+WHERE books.upc = %(upc_1)s 
+ LIMIT %(param_1)s]
+[parameters: {'upc_1': '90fa61229261140a', 'param_1': 1}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-10-24 21:49:23.618 | WARNING  | src.database.connection:insert_books_bulk:181 - Failed to insert 'Tipping the Velvet': (psycopg2.errors.UndefinedColumn) column books.description does not exist
+LINE 1: ...tegory AS books
+2025-10-24 21:49:23.619 | ERROR    | src.database.connection:get_session:106 - Session error: (psycopg2.errors.UndefinedColumn) column books.description does not exist
+LINE 1: ...tegory AS books_category, books.url AS books_url, books.desc...
+                                                             ^
+
+[SQL: SELECT books.id AS books_id, books.title AS books_title, books.price AS books_price, books.availability AS books_availability, books.rating AS books_rating, books.category AS books_category, books.url AS books_url, books.description AS books_description, books.upc AS books_upc, books.product_type AS books_product_type, books.price_excl_tax AS books_price_excl_tax, books.price_incl_tax AS books_price_incl_tax, books.tax AS books_tax, books.number_of_reviews AS books_number_of_reviews, books.image_url AS books_image_url, books.scraped_at AS books_scraped_at, books.created_at AS books_created_at, books.updated_at AS books_updated_at 
+FROM books 
+WHERE books.upc = %(upc_1)s 
+ LIMIT %(param_1)s]
+[parameters: {'upc_1': '6957f44c3847a760', 'param_1': 1}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-10-24 21:49:23.619 | WARNING  | src.database.connection:insert_books_bulk:181 - Failed to insert 'Soumission': (psycopg2.errors.UndefinedColumn) column books.description does not exist
+LINE 1: ...tegory AS books
+2025-10-24 21:49:23.620 | ERROR    | src.database.connection:get_session:106 - Session error: (psycopg2.errors.UndefinedColumn) column books.description does not exist
+LINE 1: ...tegory AS books_category, books.url AS books_url, books.desc...
+                                                             ^
+
+[SQL: SELECT books.id AS books_id, books.title AS books_title, books.price AS books_price, books.availability AS books_availability, books.rating AS books_rating, books.category AS books_category, books.url AS books_url, books.description AS books_description, books.upc AS books_upc, books.product_type AS books_product_type, books.price_excl_tax AS books_price_excl_tax, books.price_incl_tax AS books_price_incl_tax, books.tax AS books_tax, books.number_of_reviews AS books_number_of_reviews, books.image_url AS books_image_url, books.scraped_at AS books_scraped_at, books.created_at AS books_created_at, books.updated_at AS books_updated_at 
+FROM books 
+WHERE books.upc = %(upc_1)s 
+ LIMIT %(param_1)s]
+[parameters: {'upc_1': 'e00eb4fd7b871a48', 'param_1': 1}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-10-24 21:49:23.621 | WARNING  | src.database.connection:insert_books_bulk:181 - Failed to insert 'Sharp Objects': (psycopg2.errors.UndefinedColumn) column books.description does not exist
+LINE 1: ...tegory AS books
+2025-10-24 21:49:23.622 | ERROR    | src.database.connection:get_session:106 - Session error: (psycopg2.errors.UndefinedColumn) column books.description does not exist
+LINE 1: ...tegory AS books_category, books.url AS books_url, books.desc...
+                                                             ^
+
+[SQL: SELECT books.id AS books_id, books.title AS books_title, books.price AS books_price, books.availability AS books_availability, books.rating AS books_rating, books.category AS books_category, books.url AS books_url, books.description AS books_description, books.upc AS books_upc, books.product_type AS books_product_type, books.price_excl_tax AS books_price_excl_tax, books.price_incl_tax AS books_price_incl_tax, books.tax AS books_tax, books.number_of_reviews AS books_number_of_reviews, books.image_url AS books_image_url, books.scraped_at AS books_scraped_at, books.created_at AS books_created_at, books.updated_at AS books_updated_at 
+FROM books 
+WHERE books.upc = %(upc_1)s 
+ LIMIT %(param_1)s]
+[parameters: {'upc_1': '4165285e1663650f', 'param_1': 1}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-10-24 21:49:23.622 | WARNING  | src.database.connection:insert_books_bulk:181 - Failed to insert 'Sapiens: A Brief History of Humankind': (psycopg2.errors.UndefinedColumn) column books.description does not exist
+LINE 1: ...tegory AS books
+2025-10-24 21:49:23.623 | ERROR    | src.database.connection:get_session:106 - Session error: (psycopg2.errors.UndefinedColumn) column books.description does not exist
+LINE 1: ...tegory AS books_category, books.url AS books_url, books.desc...
+                                                             ^
+
+[SQL: SELECT books.id AS books_id, books.title AS books_title, books.price AS books_price, books.availability AS books_availability, books.rating AS books_rating, books.category AS books_category, books.url AS books_url, books.description AS books_description, books.upc AS books_upc, books.product_type AS books_product_type, books.price_excl_tax AS books_price_excl_tax, books.price_incl_tax AS books_price_incl_tax, books.tax AS books_tax, books.number_of_reviews AS books_number_of_reviews, books.image_url AS books_image_url, books.scraped_at AS books_scraped_at, books.created_at AS books_created_at, books.updated_at AS books_updated_at 
+FROM books 
+WHERE books.upc = %(upc_1)s 
+ LIMIT %(param_1)s]
+[parameters: {'upc_1': 'f77dbf2323deb740', 'param_1': 1}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-10-24 21:49:23.624 | WARNING  | src.database.connection:insert_books_bulk:181 - Failed to insert 'The Requiem Red': (psycopg2.errors.UndefinedColumn) column books.description does not exist
+LINE 1: ...tegory AS books
+2025-10-24 21:49:23.625 | ERROR    | src.database.connection:get_session:106 - Session error: (psycopg2.errors.UndefinedColumn) column books.description does not exist
+LINE 1: ...tegory AS books_category, books.url AS books_url, books.desc...
+                                                             ^
+
+[SQL: SELECT books.id AS books_id, books.title AS books_title, books.price AS books_price, books.availability AS books_availability, books.rating AS books_rating, books.category AS books_category, books.url AS books_url, books.description AS books_description, books.upc AS books_upc, books.product_type AS books_product_type, books.price_excl_tax AS books_price_excl_tax, books.price_incl_tax AS books_price_incl_tax, books.tax AS books_tax, books.number_of_reviews AS books_number_of_reviews, books.image_url AS books_image_url, books.scraped_at AS books_scraped_at, books.created_at AS books_created_at, books.updated_at AS books_updated_at 
+FROM books 
+WHERE books.upc = %(upc_1)s 
+ LIMIT %(param_1)s]
+[parameters: {'upc_1': '2597b5a345f45e1b', 'param_1': 1}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-10-24 21:49:23.625 | WARNING  | src.database.connection:insert_books_bulk:181 - Failed to insert 'The Dirty Little Secrets of Getting Your Dream Job': (psycopg2.errors.UndefinedColumn) column books.description does not exist
+LINE 1: ...tegory AS books
+2025-10-24 21:49:23.626 | ERROR    | src.database.connection:get_session:106 - Session error: (psycopg2.errors.UndefinedColumn) column books.description does not exist
+LINE 1: ...tegory AS books_category, books.url AS books_url, books.desc...
+                                                             ^
+
+[SQL: SELECT books.id AS books_id, books.title AS books_title, books.price AS books_price, books.availability AS books_availability, books.rating AS books_rating, books.category AS books_category, books.url AS books_url, books.description AS books_description, books.upc AS books_upc, books.product_type AS books_product_type, books.price_excl_tax AS books_price_excl_tax, books.price_incl_tax AS books_price_incl_tax, books.tax AS books_tax, books.number_of_reviews AS books_number_of_reviews, books.image_url AS books_image_url, books.scraped_at AS books_scraped_at, books.created_at AS books_created_at, books.updated_at AS books_updated_at 
+FROM books 
+WHERE books.upc = %(upc_1)s 
+ LIMIT %(param_1)s]
+[parameters: {'upc_1': 'e72a5dfc7e9267b2', 'param_1': 1}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-10-24 21:49:23.626 | WARNING  | src.database.connection:insert_books_bulk:181 - Failed to insert 'The Coming Woman: A Novel Based on the Life of the Infamous Feminist, Victoria Woodhull': (psycopg2.errors.UndefinedColumn) column books.description does not exist
+LINE 1: ...tegory AS books
+2025-10-24 21:49:23.627 | ERROR    | src.database.connection:get_session:106 - Session error: (psycopg2.errors.UndefinedColumn) column books.description does not exist
+LINE 1: ...tegory AS books_category, books.url AS books_url, books.desc...
+                                                             ^
+
+[SQL: SELECT books.id AS books_id, books.title AS books_title, books.price AS books_price, books.availability AS books_availability, books.rating AS books_rating, books.category AS books_category, books.url AS books_url, books.description AS books_description, books.upc AS books_upc, books.product_type AS books_product_type, books.price_excl_tax AS books_price_excl_tax, books.price_incl_tax AS books_price_incl_tax, books.tax AS books_tax, books.number_of_reviews AS books_number_of_reviews, books.image_url AS books_image_url, books.scraped_at AS books_scraped_at, books.created_at AS books_created_at, books.updated_at AS books_updated_at 
+FROM books 
+WHERE books.upc = %(upc_1)s 
+ LIMIT %(param_1)s]
+[parameters: {'upc_1': 'e10e1e165dc8be4a', 'param_1': 1}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-10-24 21:49:23.627 | WARNING  | src.database.connection:insert_books_bulk:181 - Failed to insert 'The Boys in the Boat: Nine Americans and Their Epic Quest for Gold at the 1936 Berlin Olympics': (psycopg2.errors.UndefinedColumn) column books.description does not exist
+LINE 1: ...tegory AS books
+2025-10-24 21:49:23.628 | ERROR    | src.database.connection:get_session:106 - Session error: (psycopg2.errors.UndefinedColumn) column books.description does not exist
+LINE 1: ...tegory AS books_category, books.url AS books_url, books.desc...
+                                                             ^
+
+[SQL: SELECT books.id AS books_id, books.title AS books_title, books.price AS books_price, books.availability AS books_availability, books.rating AS books_rating, books.category AS books_category, books.url AS books_url, books.description AS books_description, books.upc AS books_upc, books.product_type AS books_product_type, books.price_excl_tax AS books_price_excl_tax, books.price_incl_tax AS books_price_incl_tax, books.tax AS books_tax, books.number_of_reviews AS books_number_of_reviews, books.image_url AS books_image_url, books.scraped_at AS books_scraped_at, books.created_at AS books_created_at, books.updated_at AS books_updated_at 
+FROM books 
+WHERE books.upc = %(upc_1)s 
+ LIMIT %(param_1)s]
+[parameters: {'upc_1': '1dfe412b8ac00530', 'param_1': 1}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-10-24 21:49:23.628 | WARNING  | src.database.connection:insert_books_bulk:181 - Failed to insert 'The Black Maria': (psycopg2.errors.UndefinedColumn) column books.description does not exist
+LINE 1: ...tegory AS books
+2025-10-24 21:49:23.630 | ERROR    | src.database.connection:get_session:106 - Session error: (psycopg2.errors.UndefinedColumn) column books.description does not exist
+LINE 1: ...tegory AS books_category, books.url AS books_url, books.desc...
+                                                             ^
+
+[SQL: SELECT books.id AS books_id, books.title AS books_title, books.price AS books_price, books.availability AS books_availability, books.rating AS books_rating, books.category AS books_category, books.url AS books_url, books.description AS books_description, books.upc AS books_upc, books.product_type AS books_product_type, books.price_excl_tax AS books_price_excl_tax, books.price_incl_tax AS books_price_incl_tax, books.tax AS books_tax, books.number_of_reviews AS books_number_of_reviews, books.image_url AS books_image_url, books.scraped_at AS books_scraped_at, books.created_at AS books_created_at, books.updated_at AS books_updated_at 
+FROM books 
+WHERE books.upc = %(upc_1)s 
+ LIMIT %(param_1)s]
+[parameters: {'upc_1': '0312262ecafa5a40', 'param_1': 1}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-10-24 21:49:23.634 | WARNING  | src.database.connection:insert_books_bulk:181 - Failed to insert 'Starving Hearts (Triangular Trade Trilogy, #1)': (psycopg2.errors.UndefinedColumn) column books.description does not exist
+LINE 1: ...tegory AS books
+2025-10-24 21:49:23.639 | ERROR    | src.database.connection:get_session:106 - Session error: (psycopg2.errors.UndefinedColumn) column books.description does not exist
+LINE 1: ...tegory AS books_category, books.url AS books_url, books.desc...
+                                                             ^
+
+[SQL: SELECT books.id AS books_id, books.title AS books_title, books.price AS books_price, books.availability AS books_availability, books.rating AS books_rating, books.category AS books_category, books.url AS books_url, books.description AS books_description, books.upc AS books_upc, books.product_type AS books_product_type, books.price_excl_tax AS books_price_excl_tax, books.price_incl_tax AS books_price_incl_tax, books.tax AS books_tax, books.number_of_reviews AS books_number_of_reviews, books.image_url AS books_image_url, books.scraped_at AS books_scraped_at, books.created_at AS books_created_at, books.updated_at AS books_updated_at 
+FROM books 
+WHERE books.upc = %(upc_1)s 
+ LIMIT %(param_1)s]
+[parameters: {'upc_1': '30a7f60cd76ca58c', 'param_1': 1}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-10-24 21:49:23.644 | WARNING  | src.database.connection:insert_books_bulk:181 - Failed to insert 'Shakespeare's Sonnets': (psycopg2.errors.UndefinedColumn) column books.description does not exist
+LINE 1: ...tegory AS books
+2025-10-24 21:49:23.656 | ERROR    | src.database.connection:get_session:106 - Session error: (psycopg2.errors.UndefinedColumn) column books.description does not exist
+LINE 1: ...tegory AS books_category, books.url AS books_url, books.desc...
+                                                             ^
+
+[SQL: SELECT books.id AS books_id, books.title AS books_title, books.price AS books_price, books.availability AS books_availability, books.rating AS books_rating, books.category AS books_category, books.url AS books_url, books.description AS books_description, books.upc AS books_upc, books.product_type AS books_product_type, books.price_excl_tax AS books_price_excl_tax, books.price_incl_tax AS books_price_incl_tax, books.tax AS books_tax, books.number_of_reviews AS books_number_of_reviews, books.image_url AS books_image_url, books.scraped_at AS books_scraped_at, books.created_at AS books_created_at, books.updated_at AS books_updated_at 
+FROM books 
+WHERE books.upc = %(upc_1)s 
+ LIMIT %(param_1)s]
+[parameters: {'upc_1': 'ce6396b0f23f6ecc', 'param_1': 1}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-10-24 21:49:23.659 | WARNING  | src.database.connection:insert_books_bulk:181 - Failed to insert 'Set Me Free': (psycopg2.errors.UndefinedColumn) column books.description does not exist
+LINE 1: ...tegory AS books
+2025-10-24 21:49:23.663 | ERROR    | src.database.connection:get_session:106 - Session error: (psycopg2.errors.UndefinedColumn) column books.description does not exist
+LINE 1: ...tegory AS books_category, books.url AS books_url, books.desc...
+                                                             ^
+
+[SQL: SELECT books.id AS books_id, books.title AS books_title, books.price AS books_price, books.availability AS books_availability, books.rating AS books_rating, books.category AS books_category, books.url AS books_url, books.description AS books_description, books.upc AS books_upc, books.product_type AS books_product_type, books.price_excl_tax AS books_price_excl_tax, books.price_incl_tax AS books_price_incl_tax, books.tax AS books_tax, books.number_of_reviews AS books_number_of_reviews, books.image_url AS books_image_url, books.scraped_at AS books_scraped_at, books.created_at AS books_created_at, books.updated_at AS books_updated_at 
+FROM books 
+WHERE books.upc = %(upc_1)s 
+ LIMIT %(param_1)s]
+[parameters: {'upc_1': '3b1c02bac2a429e6', 'param_1': 1}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-10-24 21:49:23.663 | WARNING  | src.database.connection:insert_books_bulk:181 - Failed to insert 'Scott Pilgrim's Precious Little Life (Scott Pilgrim #1)': (psycopg2.errors.UndefinedColumn) column books.description does not exist
+LINE 1: ...tegory AS books
+2025-10-24 21:49:23.665 | ERROR    | src.database.connection:get_session:106 - Session error: (psycopg2.errors.UndefinedColumn) column books.description does not exist
+LINE 1: ...tegory AS books_category, books.url AS books_url, books.desc...
+                                                             ^
+
+[SQL: SELECT books.id AS books_id, books.title AS books_title, books.price AS books_price, books.availability AS books_availability, books.rating AS books_rating, books.category AS books_category, books.url AS books_url, books.description AS books_description, books.upc AS books_upc, books.product_type AS books_product_type, books.price_excl_tax AS books_price_excl_tax, books.price_incl_tax AS books_price_incl_tax, books.tax AS books_tax, books.number_of_reviews AS books_number_of_reviews, books.image_url AS books_image_url, books.scraped_at AS books_scraped_at, books.created_at AS books_created_at, books.updated_at AS books_updated_at 
+FROM books 
+WHERE books.upc = %(upc_1)s 
+ LIMIT %(param_1)s]
+[parameters: {'upc_1': 'a34ba96d4081e6a4', 'param_1': 1}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-10-24 21:49:23.667 | WARNING  | src.database.connection:insert_books_bulk:181 - Failed to insert 'Rip it Up and Start Again': (psycopg2.errors.UndefinedColumn) column books.description does not exist
+LINE 1: ...tegory AS books
+2025-10-24 21:49:23.671 | ERROR    | src.database.connection:get_session:106 - Session error: (psycopg2.errors.UndefinedColumn) column books.description does not exist
+LINE 1: ...tegory AS books_category, books.url AS books_url, books.desc...
+                                                             ^
+
+[SQL: SELECT books.id AS books_id, books.title AS books_title, books.price AS books_price, books.availability AS books_availability, books.rating AS books_rating, books.category AS books_category, books.url AS books_url, books.description AS books_description, books.upc AS books_upc, books.product_type AS books_product_type, books.price_excl_tax AS books_price_excl_tax, books.price_incl_tax AS books_price_incl_tax, books.tax AS books_tax, books.number_of_reviews AS books_number_of_reviews, books.image_url AS books_image_url, books.scraped_at AS books_scraped_at, books.created_at AS books_created_at, books.updated_at AS books_updated_at 
+FROM books 
+WHERE books.upc = %(upc_1)s 
+ LIMIT %(param_1)s]
+[parameters: {'upc_1': 'deda3e61b9514b83', 'param_1': 1}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-10-24 21:49:23.672 | WARNING  | src.database.connection:insert_books_bulk:181 - Failed to insert 'Our Band Could Be Your Life: Scenes from the American Indie Underground, 1981-1991': (psycopg2.errors.UndefinedColumn) column books.description does not exist
+LINE 1: ...tegory AS books
+2025-10-24 21:49:23.674 | ERROR    | src.database.connection:get_session:106 - Session error: (psycopg2.errors.UndefinedColumn) column books.description does not exist
+LINE 1: ...tegory AS books_category, books.url AS books_url, books.desc...
+                                                             ^
+
+[SQL: SELECT books.id AS books_id, books.title AS books_title, books.price AS books_price, books.availability AS books_availability, books.rating AS books_rating, books.category AS books_category, books.url AS books_url, books.description AS books_description, books.upc AS books_upc, books.product_type AS books_product_type, books.price_excl_tax AS books_price_excl_tax, books.price_incl_tax AS books_price_incl_tax, books.tax AS books_tax, books.number_of_reviews AS books_number_of_reviews, books.image_url AS books_image_url, books.scraped_at AS books_scraped_at, books.created_at AS books_created_at, books.updated_at AS books_updated_at 
+FROM books 
+WHERE books.upc = %(upc_1)s 
+ LIMIT %(param_1)s]
+[parameters: {'upc_1': 'feb7cc7701ecf901', 'param_1': 1}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-10-24 21:49:23.676 | WARNING  | src.database.connection:insert_books_bulk:181 - Failed to insert 'Olio': (psycopg2.errors.UndefinedColumn) column books.description does not exist
+LINE 1: ...tegory AS books
+2025-10-24 21:49:23.680 | ERROR    | src.database.connection:get_session:106 - Session error: (psycopg2.errors.UndefinedColumn) column books.description does not exist
+LINE 1: ...tegory AS books_category, books.url AS books_url, books.desc...
+                                                             ^
+
+[SQL: SELECT books.id AS books_id, books.title AS books_title, books.price AS books_price, books.availability AS books_availability, books.rating AS books_rating, books.category AS books_category, books.url AS books_url, books.description AS books_description, books.upc AS books_upc, books.product_type AS books_product_type, books.price_excl_tax AS books_price_excl_tax, books.price_incl_tax AS books_price_incl_tax, books.tax AS books_tax, books.number_of_reviews AS books_number_of_reviews, books.image_url AS books_image_url, books.scraped_at AS books_scraped_at, books.created_at AS books_created_at, books.updated_at AS books_updated_at 
+FROM books 
+WHERE books.upc = %(upc_1)s 
+ LIMIT %(param_1)s]
+[parameters: {'upc_1': 'e30f54cea9b38190', 'param_1': 1}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-10-24 21:49:23.680 | WARNING  | src.database.connection:insert_books_bulk:181 - Failed to insert 'Mesaerion: The Best Science Fiction Stories 1800-1849': (psycopg2.errors.UndefinedColumn) column books.description does not exist
+LINE 1: ...tegory AS books
+2025-10-24 21:49:23.685 | ERROR    | src.database.connection:get_session:106 - Session error: (psycopg2.errors.UndefinedColumn) column books.description does not exist
+LINE 1: ...tegory AS books_category, books.url AS books_url, books.desc...
+                                                             ^
+
+[SQL: SELECT books.id AS books_id, books.title AS books_title, books.price AS books_price, books.availability AS books_availability, books.rating AS books_rating, books.category AS books_category, books.url AS books_url, books.description AS books_description, books.upc AS books_upc, books.product_type AS books_product_type, books.price_excl_tax AS books_price_excl_tax, books.price_incl_tax AS books_price_incl_tax, books.tax AS books_tax, books.number_of_reviews AS books_number_of_reviews, books.image_url AS books_image_url, books.scraped_at AS books_scraped_at, books.created_at AS books_created_at, books.updated_at AS books_updated_at 
+FROM books 
+WHERE books.upc = %(upc_1)s 
+ LIMIT %(param_1)s]
+[parameters: {'upc_1': 'a18a4f574854aced', 'param_1': 1}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-10-24 21:49:23.686 | WARNING  | src.database.connection:insert_books_bulk:181 - Failed to insert 'Libertarianism for Beginners': (psycopg2.errors.UndefinedColumn) column books.description does not exist
+LINE 1: ...tegory AS books
+2025-10-24 21:49:23.688 | ERROR    | src.database.connection:get_session:106 - Session error: (psycopg2.errors.UndefinedColumn) column books.description does not exist
+LINE 1: ...tegory AS books_category, books.url AS books_url, books.desc...
+                                                             ^
+
+[SQL: SELECT books.id AS books_id, books.title AS books_title, books.price AS books_price, books.availability AS books_availability, books.rating AS books_rating, books.category AS books_category, books.url AS books_url, books.description AS books_description, books.upc AS books_upc, books.product_type AS books_product_type, books.price_excl_tax AS books_price_excl_tax, books.price_incl_tax AS books_price_incl_tax, books.tax AS books_tax, books.number_of_reviews AS books_number_of_reviews, books.image_url AS books_image_url, books.scraped_at AS books_scraped_at, books.created_at AS books_created_at, books.updated_at AS books_updated_at 
+FROM books 
+WHERE books.upc = %(upc_1)s 
+ LIMIT %(param_1)s]
+[parameters: {'upc_1': 'a22124811bfa8350', 'param_1': 1}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-10-24 21:49:23.688 | WARNING  | src.database.connection:insert_books_bulk:181 - Failed to insert 'It's Only the Himalayas': (psycopg2.errors.UndefinedColumn) column books.description does not exist
+LINE 1: ...tegory AS books
+2025-10-24 21:49:23.688 | WARNING  | src.database.connection:insert_books_bulk:186 - Failed to insert 20 books: ['A Light in the Attic', 'Tipping the Velvet', 'Soumission', 'Sharp Objects', 'Sapiens: A Brief History of Humankind']
+2025-10-24 21:49:23.688 | INFO     | src.database.connection:insert_books_bulk:188 - Insert complete: 0 books inserted
+2025-10-24 21:49:23.688 | INFO     | __main__:run_scraper:228 - Successfully inserted 0 books
+2025-10-24 21:49:23.688 | INFO     | __main__:run_scraper:232 - Sample book: {'title': 'A Light in the Attic', 'price': 51.77, 'availability': 'In stock', 'rating': 3, 'url': 'https://books.toscrape.com/catalogue/a-light-in-the-attic_1000/index.html', 'category': 'Poetry', 'description': "It's hard to imagine a world without A Light in the Attic. This now-classic collection of poetry and drawings from Shel Silverstein celebrates its 20th anniversary with this special edition. Silverstein's humorous and creative verse can amuse the dowdiest of readers. Lemon-faced adults and fidgety kids sit still and read these rhythmic words and laugh and smile and love th It's hard to imagine a world without A Light in the Attic. This now-classic collection of poetry and drawings from Shel Silverstein celebrates its 20th anniversary with this special edition. Silverstein's humorous and creative verse can amuse the dowdiest of readers. Lemon-faced adults and fidgety kids sit still and read these rhythmic words and laugh and smile and love that Silverstein. Need proof of his genius? RockabyeRockabye baby, in the treetopDon't you know a treetopIs no safe place to rock?And who put you up there,And your cradle, too?Baby, I think someone down here'sGot it in for you. Shel, you never sounded so good. ...more", 'image_url': 'https://books.toscrape.com/media/cache/fe/72/fe72f0532301ec28892ae79a629a293c.jpg', 'upc': 'a897fe39b1053632', 'product_type': 'Books', 'price_excl_tax': 51.77, 'price_incl_tax': 51.77, 'tax': 0.0, 'number_of_reviews': 0}

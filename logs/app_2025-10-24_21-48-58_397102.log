@@ -1,0 +1,4 @@
+2025-10-24 21:48:58.400 | INFO     | __main__:init_db:193 - Initializing database...
+2025-10-24 21:48:58.452 | INFO     | src.database.connection:initialize:59 - Database engine initialized successfully
+2025-10-24 21:48:58.491 | INFO     | src.database.connection:create_tables:72 - Database tables created successfully
+2025-10-24 21:48:58.492 | INFO     | __main__:init_db:196 - Database initialized successfully

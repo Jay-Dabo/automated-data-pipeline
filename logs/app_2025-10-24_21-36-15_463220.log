@@ -1,0 +1,28 @@
+2025-10-24 21:36:15.467 | INFO     | __main__:init_db:193 - Initializing database...
+2025-10-24 21:36:15.513 | INFO     | src.database.connection:initialize:59 - Database engine initialized successfully
+2025-10-24 21:36:15.570 | INFO     | src.database.connection:create_tables:72 - Database tables created successfully
+2025-10-24 21:36:15.570 | INFO     | __main__:init_db:196 - Database initialized successfully
+2025-10-24 21:36:15.570 | INFO     | __main__:run_scraper:208 - Starting scraper...
+2025-10-24 21:36:15.570 | INFO     | __main__:run_scraper:211 - Scraping mode: BY CATEGORY (includes category information)
+2025-10-24 21:36:15.570 | WARNING  | src.scraper.base_scraper:__init__:158 - SSL verification disabled - use only for development!
+2025-10-24 21:36:15.571 | INFO     | src.scraper.books_scraper:scrape:602 - Scraping by categories...
+2025-10-24 21:36:17.476 | INFO     | src.scraper.base_scraper:fetch_page:176 - Successfully fetched: https://books.toscrape.com/
+2025-10-24 21:36:17.498 | INFO     | src.scraper.books_scraper:scrape_categories:506 - Found 50 categories
+2025-10-24 21:36:17.499 | INFO     | src.scraper.books_scraper:scrape_category:519 - Scraping category: Travel
+2025-10-24 21:36:17.499 | INFO     | src.scraper.books_scraper:scrape_category:534 -   Scraping page 1: catalogue/category/books/travel_2/index.html
+2025-10-24 21:36:17.499 | WARNING  | src.scraper.base_scraper:fetch_page:188 - Attempt 1 failed for catalogue/category/books/travel_2/index.html: Invalid URL 'catalogue/category/books/travel_2/index.html': No scheme supplied. Perhaps you meant https://catalogue/category/books/travel_2/index.html?
+2025-10-24 21:36:18.504 | WARNING  | src.scraper.base_scraper:fetch_page:188 - Attempt 2 failed for catalogue/category/books/travel_2/index.html: Invalid URL 'catalogue/category/books/travel_2/index.html': No scheme supplied. Perhaps you meant https://catalogue/category/books/travel_2/index.html?
+2025-10-24 21:36:20.509 | WARNING  | src.scraper.base_scraper:fetch_page:188 - Attempt 3 failed for catalogue/category/books/travel_2/index.html: Invalid URL 'catalogue/category/books/travel_2/index.html': No scheme supplied. Perhaps you meant https://catalogue/category/books/travel_2/index.html?
+2025-10-24 21:36:20.510 | ERROR    | src.scraper.base_scraper:fetch_page:192 - Failed to fetch catalogue/category/books/travel_2/index.html after 3 attempts
+2025-10-24 21:36:20.510 | INFO     | src.scraper.books_scraper:scrape_category:587 - Category 'Travel': Total 0 books
+2025-10-24 21:36:21.512 | INFO     | src.scraper.books_scraper:scrape_category:519 - Scraping category: Mystery
+2025-10-24 21:36:21.512 | INFO     | src.scraper.books_scraper:scrape_category:534 -   Scraping page 1: catalogue/category/books/mystery_3/index.html
+2025-10-24 21:36:21.513 | WARNING  | src.scraper.base_scraper:fetch_page:188 - Attempt 1 failed for catalogue/category/books/mystery_3/index.html: Invalid URL 'catalogue/category/books/mystery_3/index.html': No scheme supplied. Perhaps you meant https://catalogue/category/books/mystery_3/index.html?
+2025-10-24 21:36:22.515 | WARNING  | src.scraper.base_scraper:fetch_page:188 - Attempt 2 failed for catalogue/category/books/mystery_3/index.html: Invalid URL 'catalogue/category/books/mystery_3/index.html': No scheme supplied. Perhaps you meant https://catalogue/category/books/mystery_3/index.html?
+2025-10-24 21:36:24.519 | WARNING  | src.scraper.base_scraper:fetch_page:188 - Attempt 3 failed for catalogue/category/books/mystery_3/index.html: Invalid URL 'catalogue/category/books/mystery_3/index.html': No scheme supplied. Perhaps you meant https://catalogue/category/books/mystery_3/index.html?
+2025-10-24 21:36:24.520 | ERROR    | src.scraper.base_scraper:fetch_page:192 - Failed to fetch catalogue/category/books/mystery_3/index.html after 3 attempts
+2025-10-24 21:36:24.520 | INFO     | src.scraper.books_scraper:scrape_category:587 - Category 'Mystery': Total 0 books
+2025-10-24 21:36:25.524 | INFO     | src.scraper.books_scraper:scrape_category:519 - Scraping category: Historical Fiction
+2025-10-24 21:36:25.531 | INFO     | src.scraper.books_scraper:scrape_category:534 -   Scraping page 1: catalogue/category/books/historical-fiction_4/index.html
+2025-10-24 21:36:25.532 | WARNING  | src.scraper.base_scraper:fetch_page:188 - Attempt 1 failed for catalogue/category/books/historical-fiction_4/index.html: Invalid URL 'catalogue/category/books/historical-fiction_4/index.html': No scheme supplied. Perhaps you meant https://catalogue/category/books/historical-fiction_4/index.html?
+2025-10-24 21:36:26.537 | WARNING  | src.scraper.base_scraper:fetch_page:188 - Attempt 2 failed for catalogue/category/books/historical-fiction_4/index.html: Invalid URL 'catalogue/category/books/historical-fiction_4/index.html': No scheme supplied. Perhaps you meant https://catalogue/category/books/historical-fiction_4/index.html?

@@ -1,0 +1,14 @@
+2025-10-24 21:23:34.842 | INFO     | __main__:init_db:46 - Initializing database...
+2025-10-24 21:23:34.907 | INFO     | src.database.connection:initialize:59 - Database engine initialized successfully
+2025-10-24 21:23:35.063 | INFO     | src.database.connection:create_tables:72 - Database tables created successfully
+2025-10-24 21:23:35.063 | INFO     | __main__:init_db:49 - Database initialized successfully
+2025-10-24 21:23:35.064 | INFO     | __main__:run_scraper:59 - Starting scraper...
+2025-10-24 21:23:35.064 | INFO     | src.scraper.books_scraper:scrape:134 - Scraping page 1: https://books.toscrape.com/
+2025-10-24 21:23:36.757 | WARNING  | src.scraper.base_scraper:fetch_page:62 - Attempt 1 failed for https://books.toscrape.com/: HTTPSConnectionPool(host='books.toscrape.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)')))
+2025-10-24 21:23:38.467 | WARNING  | src.scraper.base_scraper:fetch_page:62 - Attempt 2 failed for https://books.toscrape.com/: HTTPSConnectionPool(host='books.toscrape.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)')))
+2025-10-24 21:23:41.222 | WARNING  | src.scraper.base_scraper:fetch_page:62 - Attempt 3 failed for https://books.toscrape.com/: HTTPSConnectionPool(host='books.toscrape.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)')))
+2025-10-24 21:23:41.223 | ERROR    | src.scraper.base_scraper:fetch_page:66 - Failed to fetch https://books.toscrape.com/ after 3 attempts
+2025-10-24 21:23:41.223 | INFO     | src.scraper.books_scraper:scrape:138 - No books found on page 1. Stopping.
+2025-10-24 21:23:41.223 | INFO     | src.scraper.books_scraper:scrape:144 - Total books scraped: 0
+2025-10-24 21:23:41.223 | INFO     | src.scraper.base_scraper:close:86 - Scraper session closed
+2025-10-24 21:23:41.224 | WARNING  | __main__:run_scraper:69 - No books were scraped
